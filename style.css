@@ -3,7 +3,6 @@
     margin:0;
     padding: 0;
     font-family: 'roboto';
-    
 }
 
 /*
@@ -149,7 +148,10 @@
     color:#808080;
     cursor: pointer;
 }
-
+/* Media Screen of Header start ************ */
+@media screen and (max-width: 800px) {
+    
+  }
 
 /*
 88b 88    db    Yb    dP 88""Yb    db    88""Yb     .dP"Y8 888888  dP""b8 888888 88  dP"Yb  88b 88      dP""b8 .dP"Y8 .dP"Y8
@@ -444,16 +446,17 @@ dP""""Yb    YP  YP    dP""""Yb 88  Yb 8888Y"  8bodP'     8bodP' 888888  YboodP  
       opacity: 1;
       transition: opacity 0.4s ease-in-out;
   }
-  
-  @media screen and (max-width: 800px) {
+  /* Media Screen of Image Gallery start ************ */
+  @media screen and (max-width: 768px) {
     .img-column {
       flex: 50%;
       max-width: 50%;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 992) {
     .img-column {
       flex: 100%;
       max-width: 100%;
     }
   }
+  /* Media Screen of Image Gallery End************ */
