@@ -4,7 +4,6 @@
     padding: 0;
     font-family: 'roboto';
 }
-
 /*
 88  88 888888    db    8888b.  888888 88""Yb     .dP"Y8 888888  dP""b8 888888 88  dP"Yb  88b 88      dP""b8 .dP"Y8 .dP"Y8
 88  88 88__     dPYb    8I  Yb 88__   88__dP     `Ybo." 88__   dP   `"   88   88 dP   Yb 88Yb88     dP   `" `Ybo." `Ybo."
@@ -221,7 +220,93 @@
    
   }
 
+/* ***************** */
+/* DropDown Menu CSS */
+/* ***************** */
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top:15px;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:10px;
+    padding: 0px !important;
+}
 
+.show {display: block;}
+
+.content-row
+{
+    display: flex;
+}
+.section-1 
+{
+    display: flex;
+
+}
+.section-1-content
+{
+    padding: 0px 15px !important;
+}
+.section-1-p-title
+{
+    font-weight: bold;
+}
+.section-1-p-text
+{
+    padding:10px 0px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+.section-1-p-text1
+{
+    
+    padding:10px 0px;
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+
+.content-div , .content-row
+{
+    padding: 10px !important;
+    
+}
+.content-div 
+{
+    border-bottom:1px solid rgb(192, 192, 192);
+}
+.menu-footer 
+{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+}
+.menu-footer-text 
+{
+    display: flex;
+}
+.menu-footer-icons i
+{
+    padding:0px 10px;
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+.menu-footer-text  p
+{
+    padding:0px 10px;
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+
+  
 /*
 88b 88    db    Yb    dP 88""Yb    db    88""Yb     .dP"Y8 888888  dP""b8 888888 88  dP"Yb  88b 88      dP""b8 .dP"Y8 .dP"Y8
 88Yb88   dPYb    Yb  dP  88__dP   dPYb   88__dP     `Ybo." 88__   dP   `"   88   88 dP   Yb 88Yb88     dP   `" `Ybo." `Ybo."
@@ -590,7 +675,7 @@ dP""""Yb    YP  YP    dP""""Yb 88  Yb 8888Y"  8bodP'     8bodP' 888888  YboodP  
 .img-column
 {
     flex: 25%;
-    max-width: 33.9%;
+    max-width: 100%;
     padding: 0 4px;
     cursor: zoom-in;
 }
@@ -600,7 +685,7 @@ dP""""Yb    YP  YP    dP""""Yb 88  Yb 8888Y"  8bodP'     8bodP' 888888  YboodP  
 }
 .img-sections img {
     margin-top: 8px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     width: 100%;
     opacity: 1;
 }
@@ -634,8 +719,8 @@ dP""""Yb    YP  YP    dP""""Yb 88  Yb 8888Y"  8bodP'     8bodP' 888888  YboodP  
   /* Media Screen of Image Gallery start ************ */
   @media screen and (max-width: 992px) {
     .img-column {
-      flex: 100%;
-      max-width: 33.3%;
+      flex: 50%;
+      /* max-width: 33.3%; */
       padding: 0px;
     }
     .images-gallery {
