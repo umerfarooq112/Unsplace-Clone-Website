@@ -17,11 +17,12 @@
     display: flex;
     align-items: center;
     padding:3px 0px 0px 15px;
+    /* justify-content: center; */
 }
 
 .header-section  div 
 {
-    padding: 10px 19px;
+    padding: 10px 17px;
 }
 /* logo text div */
 .logo-text
@@ -149,9 +150,77 @@
     cursor: pointer;
 }
 /* Media Screen of Header start ************ */
-@media screen and (max-width: 800px) {
-    
+@media screen and (max-width: 1100px) {
+   
+    #header-input-field 
+    {
+        max-width: 300px;
+    }
+    .logo-text
+    {
+        display: none;
+    }
+    .header-award-u
+    {
+        display: none;
+
+    }
   }
+
+@media screen and (max-width: 992px) {
+   
+    .logo-text
+    {
+        display: none;
+    }
+    #header-input-field 
+    {
+        width: 200px;
+    }
+    .header-login{
+        margin: 5px !important;
+        padding: 0px !important;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+  
+    .brands-section
+    {
+        display: none;
+    }
+    .awards{
+        display: none;
+    }
+    .header-login
+    {
+        display: none;
+    }
+    .header-button
+    {
+        display: none;
+    }
+    .header-section 
+    {
+      
+        justify-content: space-between;
+    }
+    #header-input-field 
+    {
+        width: 500px ;
+    }
+   
+  }
+  @media screen and (max-width: 500px) {
+  
+   
+    #header-input-field 
+    {
+        width: 200px;
+    }
+   
+  }
+
 
 /*
 88b 88    db    Yb    dP 88""Yb    db    88""Yb     .dP"Y8 888888  dP""b8 888888 88  dP"Yb  88b 88      dP""b8 .dP"Y8 .dP"Y8
@@ -194,6 +263,27 @@
 {
     margin-left: 12px;
 }
+
+@media screen and (max-width: 1100px) {
+    .navbar-section div:nth-child(n+10)
+    {
+        display: none;
+    }
+   
+  }
+@media screen and (max-width: 992px) {
+    .navbar-section div:nth-child(n+9)
+    {
+        display: none;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .navbar-section div:nth-child(n+6)
+    {
+        display: none;
+    }
+   
+  }
 
 
 /*
@@ -327,8 +417,92 @@
 .hero-space 
 {
     margin-top:10px;
-
 }
+@media screen and (max-width: 1100px) {
+   
+   
+  }
+@media screen and (max-width: 992px) {
+    .hero-div-text {
+
+        top: 40%;
+        left: 49%;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .hero-div-text {
+        top: 40%;
+        left: 29%;
+    }
+    .hero-input-div {
+        display: none;
+    }
+    .hero-div-h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        
+    }
+    .hero-div-img {
+        /* background: #eb01a5; */
+        max-width: 100%;
+        height: 100vh;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(34, 34, 34, 0.5)),url(images/hero-image2.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    .hero-div-text1 {
+        font-size: 15px;
+
+    }
+    .hero-div-text2 {
+        font-size: 15px;
+        margin-bottom: 19px;
+    }
+    .hero-trending-div 
+    {
+        display: none;
+    }
+    .bottom-div-1
+    {
+        display: none;
+    }
+    .bottom-div-2
+    {
+        display: none;
+    }
+  }
+@media screen and (max-width: 500px) {
+    .hero-div-text {
+        top: 40%;
+        left: 29%;
+    }
+    .hero-div-h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        
+    }
+    .hero-div-text1 {
+        font-size: 12px;
+
+    }
+    .hero-div-text2 {
+        font-size: 12px;
+        margin-bottom: 19px;
+    }
+    .hero-trending-div 
+    {
+        display: none;
+    }
+    .bottom-div-1
+    {
+        display: none;
+    }
+    .bottom-div-2
+    {
+        display: none;
+    }
+   
+  }
 /*
    db    Yb        dP    db    88""Yb 8888b.  .dP"Y8     .dP"Y8 888888  dP""b8 888888 88  dP"Yb  88b 88     8888b.  88 Yb    dP
   dPYb    Yb  db  dP    dPYb   88__dP  8I  Yb `Ybo."     `Ybo." 88__   dP   `"   88   88 dP   Yb 88Yb88      8I  Yb 88  Yb  dP
@@ -385,6 +559,17 @@ dP""""Yb    YP  YP    dP""""Yb 88  Yb 8888Y"  8bodP'     8bodP' 888888  YboodP  
     color: rgb(168, 168, 168);
     border-bottom: 1px solid;
 }
+@media screen and (max-width: 768px) {
+    .awards-text {
+
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+
+    .Award-Section {
+        padding: 14px;
+    }
+  }
 /*
 88 8b    d8    db     dP""b8 888888 .dP"Y8      dP""b8    db    88     88     888888 88""Yb Yb  dP
 88 88b  d88   dPYb   dP   `" 88__   `Ybo."     dP   `"   dPYb   88     88     88__   88__dP  YbdP
@@ -447,16 +632,30 @@ dP""""Yb    YP  YP    dP""""Yb 88  Yb 8888Y"  8bodP'     8bodP' 888888  YboodP  
       transition: opacity 0.4s ease-in-out;
   }
   /* Media Screen of Image Gallery start ************ */
+  @media screen and (max-width: 992px) {
+    .img-column {
+      flex: 100%;
+      max-width: 33.3%;
+      padding: 0px;
+    }
+    .images-gallery {
+        padding: 0px 0px;
+    }
+    .img-row {
+        padding: 0 0px;
+    }
+  }
   @media screen and (max-width: 768px) {
     .img-column {
       flex: 50%;
-      max-width: 50%;
+      max-width: 100%;
     }
   }
-  @media screen and (max-width: 992) {
+  @media screen and (max-width: 660px) {
     .img-column {
       flex: 100%;
       max-width: 100%;
     }
   }
-  /* Media Screen of Image Gallery End************ */
+
+  
