@@ -48,10 +48,51 @@
                 <!-- <i class="fa fa-trophy header-icon"></i> -->
                 <h4 class="header-Awards">   <span class="header-award-u">Unsplash</span> Awards</h4>
             </div>
+
             <!-- Login Text -->
-            <div class="header-login">
+             <!-- ********************************* -->
+            <!--                ******************* -->
+            <!--  Modal Dialog  ******************* -->
+            <!--                ******************* -->
+            <!--  ********************************* -->
+            <div class="header-login" id="openModal">
                 <h4>Log in</h4>
             </div>
+            
+            <!--  ********************************* -->
+            <!--            *********************** -->
+            <!--  The Modal *********************** -->
+            <!--            *********************** -->
+            <!--  ********************************* -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-content-section">
+                        <img src="images/tab-icon.png" alt="">
+                        <h1 class="modal-title">Login</h1>
+                        <p class="modal-text-p1">To submit a photo, login</p>
+                        <button class="modal-button"> <i class="fa fa-facebook btn-icon"></i> Login with Facebook</button>
+                        <p class="modal-text-p2">OR</p>
+                        <div class="input-divs">
+                            <!-- email input -->
+                            <p class="email-label">Email</p>
+                            <input type="text" name="email" id="email" class="email-input" >
+                            <!-- password input -->
+                            <p class="password-label">Password  <span class="modal-text-link">Forgot your Password</span> </p>
+                            <input type="password" name="email" id="email" class="password-input" >
+                            <!-- login btn -->
+                            <button class="modal-login-btn">Login</button>
+
+                        </div>
+                        <p class="modal-text-p3">Don't have any account? <span class="modal-text-link"> Join</span></p>
+                    </div>
+                    
+                </div>
+            
+            </div>
+
+
             <div class="header-button">
                 <button type="submit">Submit a Photo</button>
             </div>
@@ -60,7 +101,7 @@
             <!--  ********************************* -->
             <!--                ******************* -->
             <!--  DropDown Menu ******************* -->
-            <!--                ******************** -->
+            <!--                ******************* -->
             <!--  ********************************* -->
 
             <div class="header-menu-icon">
@@ -184,11 +225,71 @@
                 <h1 class="hero-div-h1">Unsplash</h1>
                 <h5 class="hero-div-text1" >The internet’s source of <a href="" class="hero-div-text1-a">freely-usable images  </a> </h5>
                 <h5 class="hero-div-text2"> Powered by creators everywhere.</h5>
-                <div class="hero-input-div">
+                <!-- ********************  -->
+                <!-- ********************  -->
+                <!-- Hero Input Drop Dwon  -->
+                <!-- ********************  -->
+                <!-- ********************  -->
+                <div class="hero-input-div hero-input-dropdown">
                     <i class="fa fa-search hero-icon-1 "></i>
-                    <input type="text" name="" id="hero-input" placeholder="Search Free High resolution photos">
+                    <input type="text" name="input" id="hero-input" placeholder="Search Free High resolution photos">
                     <i class="fa fa-camera hero-icon-2"></i>
+                    
                 </div>
+
+                <div id="myDropdown2" class="dropdown-content2">
+                    <div class="button-labels">
+
+                        
+
+                        <p>Recent Searches  <span>Clear</span></p>
+                    </div>
+                    <div class="dropdown-btns">
+                        <button class="drop-btn">portrait</button>
+                        <button class="drop-btn">Arab people</button>
+                        <button class="drop-btn">person</button>
+                        <button class="drop-btn">avatar</button>
+                    </div>
+                    <div class="button-labels">
+                        <p>Trending Searches  </p>
+                    </div>
+                    <div class="dropdown-btns">
+                        <button class="drop-btn"> <i class="fa fa-line-chart"></i> portrait</button>
+                        <button class="drop-btn"> <i class="fa fa-line-chart"></i> Arab people</button>
+                        <button class="drop-btn"> <i class="fa fa-line-chart"></i> person</button>
+                        <button class="drop-btn"> <i class="fa fa-line-chart"></i> avatar</button>
+                    </div>
+                    <div class="button-labels">
+                        <p>Trending Topics</p>
+                    </div>
+                    <div class="dropdown-btn-divs">
+                       <div class="img-text-div">
+                           <img src="images/hero-img.jpeg" class="btn-img" alt="">
+                           <p>Nature</p>
+                       </div>
+                       <div class="img-text-div">
+                           <img src="images/img-1-1.jpg" class="btn-img" alt="">
+                           <p>Hello world</p>
+                       </div>
+                       <div class="img-text-div">
+                           <img src="images/img-1-2.jpg" class="btn-img" alt="">
+                           <p>Hello world</p>
+                       </div>
+                      
+                    </div>
+
+                    <div class="button-labels">
+                        <p>Trending Searches  </p>
+                    </div>
+                    <div class="dropdown-btns">
+                        <button class="drop-btn"> <i class="fa fa-line-chart"></i> portrait</button>
+                        <button class="drop-btn"> <i class="fa fa-line-chart"></i> Arab people</button>
+                        <button class="drop-btn"> <i class="fa fa-line-chart"></i> person</button>
+                        <button class="drop-btn"> <i class="fa fa-line-chart"></i> avatar</button>
+                    </div>
+
+                </div>
+
                 <div class="hero-trending-div">
                     <div>
                         Trending:

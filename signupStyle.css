@@ -1,0 +1,204 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    font-family: 'roboto';
+}
+.row    
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    height: 100vh;
+}
+.col 
+{
+    flex:50%;
+    max-width: 50%;
+}
+
+/* ***************************************** */
+/* ***************************************** */
+/*                            ************** */
+/* Image Section              ************** */
+/*                            ************** */
+/* ***************************************** */
+/* ***************************************** */
+/* ***************************************** */
+
+.main-img
+{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(34, 34, 34, 0.5)),url("images/screen\ 1\ image.JPG") ;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: space-around   ;
+    height: 100%;
+}
+
+.text-title
+{
+    font-size: 45px;
+}
+
+.text-details
+{
+    width: 70%;
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.footer-text
+{
+    font-size: 13px;
+}
+
+
+/* ***************************************** */
+/* ***************************************** */
+/*                            ************** */
+/* Form Section               ************** */
+/*                            ************** */
+/* ***************************************** */
+/* ***************************************** */
+/* ***************************************** */
+
+.form-section
+{
+
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+
+}
+.container  
+{
+    margin-top: 50px; 
+}
+.form-title
+{
+    font-size: 38px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.form-text-1
+{
+    font-size: 14px;
+    color: gray;
+    font-weight: 300;
+}
+.text-1-link    
+{
+    color:gray;
+}
+.form-join-btn
+{
+    width: 70%;
+    margin:30px 0px;
+    background-color: rgb(0, 110, 255);
+    border:none;
+    border-radius: 4px;
+    color:white;
+    padding:15px 0px;
+}
+.form-join-btn i
+{
+    margin:0px 4px;
+}
+.space-text
+{
+    margin-bottom: 14px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.Input-form 
+{
+    width: 70%;
+    margin: auto;
+    text-align: start;
+    margin-top: 20px;
+
+}
+.form-section-1
+{
+    display: flex;
+}
+.inputLabels 
+{
+    display: block;
+    color: gray;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 300;
+
+}
+.group-1
+{
+    padding-right:10px ;
+}
+.group-1 ,.group-2
+{
+    width: 50%;
+
+}
+.inputs-fields 
+{
+    width: 100%;
+    padding:7px 7px;
+    border:1px solid rgb(124, 124, 124);
+    border-radius: 3px;
+}
+.spacing
+{
+    margin:14px 0px;
+}
+
+.join-btn
+{
+    width: 100%;
+    margin:30px 0px;
+    background-color: rgb(0, 0, 0);
+    border:none;
+    border-radius: 4px;
+    color:white;
+    padding:15px 0px;
+    cursor: pointer;
+}
+.form-footer-text
+{
+    font-size: 13px;
+    color: gray;
+}
+.form-footer-text a
+{
+    color: gray;
+}
+
+@media screen and (max-width: 992px) {
+    .col {
+      -ms-flex: 50%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    .main-img
+    {
+
+        width: 100%;
+        min-height: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+    .content
+    {
+        /* height:auto; */
+    }
+  }

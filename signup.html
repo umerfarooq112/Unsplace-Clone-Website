@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnSplash Clone Website</title>
+    <link rel="stylesheet" href="signupStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link  href="images/tab-icon.png" rel="shortcut icon">
+</head>
+<body>
+
+    <section class="signup">
+        <div class="main-div">
+            <div class="row">
+                <!-- ********************************** -->
+                <!--                ******************* -->
+                <!--  Image Section column  *********** -->
+                <!--                ******************* -->
+                <!--  ********************************* -->
+                <div class="col main-img">
+                    <div class="content">
+                        <div class="logo">
+                            <img src="images/tab-icon.png" width="80px" height="auto" alt="">
+                        </div>
+                        <div class="text-section">
+                            <h1 class="text-title">Creation starts here</h1 c>
+                            <p class="text-details">Access 343,889,10 high resolution photos you can't find anywhere else</p>
+                        </div>
+                        <div class="footer-text">
+                            <p>Uploaded 8 years ago by Lorem ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ********************************** -->
+                <!--                ******************* -->
+                <!--  Form Section column  ************ -->
+                <!--                ******************* -->
+                <!--  ********************************* -->
+                <div class="col form-section">
+                    <div class="container">
+                        <h2 class="form-title">Join Unsplash</h2>
+                        <p class="form-text-1">Already have an account?  <a href="#" class="text-1-link">Login</a> </p>
+                        <button class="form-join-btn">  <i class="fa fa-facebook"></i> Join Using Facebook </button>
+                        <p class="space-text">OR</p>
+
+                        <form action="" class="Input-form" id="SignupForm">
+                            <div class="form-section-1 spacing">
+                                <div class="group-1">
+                                    <label for="First Name" class="InputLabels">First Name</label>
+                                    <input type="text" name="firstName" id="firstName" class="inputs-fields">
+                                </div>
+                                <div class="group-2 "  >
+                                    <label for="Last Name" class="InputLabels">Last Name</label>
+                                    <input type="text" name="lastName" id="lastName" class="inputs-fields">
+                                </div>
+                            </div>
+                            <div class="form-section-2 spacing">
+                                <label for="Email" class="InputLabels">Email</label>
+                                <input type="email" name="Email" id="email" class="inputs-fields">
+                            </div>
+                            <div class="form-section-3 spacing">
+                                <label for="Username" class="InputLabels">Username (only letters,numbers, and underscores)</label>
+                                <input type="text" name="Username" id="Username" class="inputs-fields">
+                            </div>
+                            <div class="form-section-4 spacing">
+                                <label for="password" class="InputLabels">Password (min 6 char)</label>
+                                <input type="password" name="password" id="password" class="inputs-fields">
+                            </div>
+
+                            <button class="join-btn" type="submit">Join</button>
+                        </form>
+
+                        <p class="form-footer-text">By joining you agree to the <a href="#">Terms</a> and <a href="">  privacy policy  </a>  </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="signup.js"></script>
+
+</body>
+</html>
